@@ -3,161 +3,185 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>FLISOL 2014 - Ciudad de Panamá</title>
+    <link rel="shortcut icon" href="images/flisol-icon.png" type="image/png">
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+    <div class="row-wrapper site-menu">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="panel">
+            <a href="#about">Acerca de</a>
+            <a href="#guide">Guía rápida</a>
+            <a href="#charlas">Horario</a>
+            <a href="#patrocinadores">Patrocinadores</a>
+            <a href="#info">Información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row-wrapper background-sp" data-stellar-background-ratio="0.5">
+      <div class="row site-header">
+        <div class="large-6 medium-12 columns">
+          <h1 class="seo-hide">FLISOL 2014 - Ciudad de Panamá</h1>
+          <img class="site-logo" src="images/logo.png" alt="Bienvenido al sitio del FLISOL Panamá 2014">
+        </div>
+        <div class="large-6 medium-12 columns register-btn">
+          <a href="https://eventioz.com.ar/e/festival-latinoamericano-de-instalacion-de-softwar" class="button">Regístrate</a>
+        </div>
       </div>
     </div>
     
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+    <div class="row-wrapper site-content">
+      <div class="row site-content">
+        <div class="large-12 columns summary">
+          <div class="large-4 medium-4 columns">
+            <div class="fa fa-map-marker"></div>
+            <div class="e-info">
+              <h4>Lugar</h4>
+              <p>Universidad Tecnológica de Panamá</p>
             </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
+          </div>  
+          <div class="large-4 medium-4 columns">
+            <div class="fa fa-calendar"></div>
+            <div class="e-info">
+              <h4>Fecha</h4>
+              <p>26 de Abril de 2014</p>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+          <div class="large-4 medium-4 columns">
+            <div class="fa fa-dollar"></div>
+            <div class="e-info">
+              <h4>Precio</h4>
+              <p><b>¡Totálmente gratuito!</b></p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
+        <div class="large-12 columns">
+          <div class="panel" id="about">
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <h3>¿Qué es el FLISOL?</h3>
+                <p>El Festival Latinoamericano de Instalación de Software Libre (FLISOL), es el mayor evento de difusión de software libre que se realiza en latinoamérica desde el año 2005 de forma simultánea. Es una oportunidad para todas aquellas personas interesadas en conocer más acerca del software libre. Participando es posible entrar en contacto con el mundo del software libre, conocer a otros usuarios, resolver dudas e interrogantes, intercambiar opiniones y experiencias; asistir a charlas y otras actividades programadas.</p><p>A tal fin, las diversas comunidades locales de software libre, organizan simultáneamente eventos en los que se instala, de manera gratuita y totalmente legal, software libre en las computadoras que llevan los asistentes. Además, en forma paralela, se ofrecen charlas, ponencias y talleres, sobre temáticas locales, nacionales y latinoamericanas en torno al software libre, en toda su gama de expresiones: artística, académica, empresarial y social.</p>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <a class="twitter-timeline"  href="https://twitter.com/search?q=%23flisolpanama"  data-widget-id="312748751343190016">Tweets sobre "#flisolpanama"</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
+          <div class="panel" id="guide">
+            <h3>¿Cómo será el evento?</h3>
+<p>Cuando llegas al lugar estarás llenando el <strong>registro</strong> de asistencia. Allí recibirás un cintillo. Luego podrás quedarte en el área de las charlas o entrar al salón de los talleres:</p>
+<ul><li>Habrá un salón dedicado a los <strong>talleres</strong> para tener mayor comodidad.
+</li><li>Habrá un espacio para las <strong>charlas</strong>. Recuerda que se estará filmando.
+</li><li>Afuera de los salones estarán las mesas de nuestros patrocinadores y las comunidades de software libre.
+</li><li>En un mural estará disponibles las presentaciones que habrá en en el evento (de igual forma en la página web del evento).
+</li></ul><p>Si no puedes participar físicamente en el evento te recomendamos seguir nuestro canal de <strong>streaming</strong> (más adelante se anunciará cómo accederlo).</p>
+<p>Otro detalle interesante es que tendremos un concurso de posters relacionados a temas de software libre. Ir a la sección de <a href="http://flisolpanama.com/?q=concurso">Concurso</a> para más información.</p>
+<h3>Recomendaciones</h3>
+<ul><li>Si estás trayendo tu máquina de escritorio o portátil, hazlo con cuidado. No nos haremos responsables de daños físicos.
+</li><li>Si vas a instalar un nuevo sistema operativo, haz copias de respaldo y defragmentación de tu disco duro.
+</li><li>Estarás en contacto con miembros activos de proyectos internacionales de código abierto y con empresarios en búsqueda de talentos. Interactúa con ellos.
+</li></ul>
+          </div>
+          <div class="panel" id="charlas">
+            <h3>Horario del evento</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Charlas</th>
+                  <th>Talleres</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>10:00 AM</td>
+                  <td>Comunidades de Software Libre</td>
+                  <td>Ruby principiantes</td>
+                </tr>
+                <tr>
+                  <td>11:00 AM</td>
+                  <td>Web Scraping con Node.js</td>
+                  <td>Aprender a editar Wikipedia</td>
+                </tr>
+                <tr>
+                  <td>1:00 PM</td>
+                  <td>Mi vida en Fedora</td>
+                  <td>Python</td>
+                </tr>
+                <tr>
+                  <td>2:00 PM</td>
+                  <td>Hardening Asterisk</td>
+                  <td>Ruby Avanzados</td>
+                </tr>
+                <tr>
+                  <td>3:00 PM</td>
+                  <td>Hacking Spaces</td>
+                  <td>Arduino con Java</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <h4>Mesas de instalacion</h4>
+                <ul>
+                  <li>Fedora</li>
+                  <li>Debian</li>
+                  <li>Ubuntu</li>
+                  <li>Open SUSE</li>
+                </ul>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <h4>Otros</h4>
+                <ul>
+                  <li>Muestras de Hardware Libre</li>
+                  <li>Arduino</li>
+                  <li>Raspberry Pi</li>
+                  <li>Icaro</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+          <div class="panel" id="patrocinadores">
+            <h3>Patrocinadores</h3>
+            <div class="stakeholders-list">
+              <img src="images/utp.png" alt="Universidad Tecnológica de Panama">
+              <img src="images/rootstack.png" alt="Rootstack">
+              <img src="images/maga.png" alt="Maga Systems">
+              <img src="images/admios.png" alt="Admios">
+              <img src="images/flosspa.png" alt="FLOSS PA">
             </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row-wrapper site-footer" id="info">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7880.890380756387!2d-79.53250644734837!3d9.023089764112727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8394b28a887%3A0x9774f59499c14f80!2sUniversidad+Tecnol%C3%B3gica+Edificio+3!5e0!3m2!1ses-419!2sus!4v1397866177600" frameborder="0" style="border:0"></iframe>
+      <div class="row-wrapper site-footer-info" id="info">
+        <div class="row">
+          <div class="small-12 large-6 large-centered columns">
+            <div class="panel footer-block">
+              <p>Facultad de Ingeniería de Sistemas Computacionales de la Universidad Tecnológica de Panamá. Campus Víctor Levi Sasso (Tumba Muerto), edificio No.3.</p>
+              <div class="social-links">
+                <a href="https://www.facebook.com/events/1402549143346998/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/search?q=FLISOLPanama" class="fa fa-twitter"></a>
+              </div>
             </div>
           </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
         </div>
       </div>
     </div>
 
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/stellar.js/jquery.stellar.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>

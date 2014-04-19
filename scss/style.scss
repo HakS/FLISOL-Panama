@@ -1,0 +1,148 @@
+body {
+	background: $background-color;
+}
+
+h1,h2,h3{
+	font-weight:bold;
+}
+
+.site-content{
+	background-color: white;
+	z-index: 2;
+	position: relative;
+}
+
+.seo-hide {
+	display: none;
+}
+
+.site-logo {
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	z-index: 10;
+	bottom: -120px;
+}
+
+.background-sp {
+	background: image-url("background.jpg");
+	height: 28em;
+	position: relative;
+	z-index: 3;
+}
+
+.register-btn {
+	text-align: center;
+	a {
+		margin-top: 8.6em;
+		font-size: 1.6em;
+	}
+}
+
+@media only screen and (max-width: 64.063em) {
+	.register-btn a {
+		margin-top: 0;
+		position: relative;
+		z-index: 11;
+	}
+}
+
+.site-footer {
+	position: relative;
+	z-index: 1;
+	iframe {
+		width: 100%;
+		height: 28em;
+	}
+}
+
+.site-menu {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	.panel {
+		padding: 0;
+	}
+	a{
+		padding: 1.25rem;
+		display: inline-block;
+		border-right: 1px solid #ccc;
+	}
+}
+
+@media only screen and (max-width: 40.063em) {
+	.site-menu {
+		position: static;
+		.columns {
+			padding: 0;
+		}
+		.panel {
+			margin: 0;
+		}
+		a {
+			display: block;
+		}
+	}
+}
+
+.site-footer-info {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+#charlas table{
+	width: 100%;
+}
+
+#twitter-widget-0 {
+    width: 100%;
+    height: 430px;
+}
+
+.summary {
+	.columns {
+		margin: 2em 0;
+	}
+	.fa{
+		float: left;
+		font-size: 5.4em;
+		color: $background-color;
+		width: 1.3em;
+		text-align: center;
+	}	
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64.063em) {
+	.summary {
+		text-align: center;
+		.fa{
+			width: 100%;
+			margin-bottom: 0.3em;
+		}
+	}
+}
+
+.social-links {
+	text-align: center;
+	a{
+		background: $background-color;
+		color: white;
+		display: inline-block;
+		padding: 0.4em;
+		font-size: 1.4em;
+		width: 1.8em;
+		border-radius: 100%;
+		&:hover {
+			background: lighten($background-color,10);
+		}
+	}
+}
+
+.stakeholders-list {
+    text-align: center;
+	img {
+	    display: inline-block;
+	    margin: 0.7em;
+	}
+}
