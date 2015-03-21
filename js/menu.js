@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+    $('.site-menu a[href^="#"]').bind('click.smoothscroll',function (e) {
         e.preventDefault();
       
         var target = this.hash,
